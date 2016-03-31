@@ -1,0 +1,20 @@
+{
+    "name": "miguelneto/matematica",
+    "description": "Um repositório de matemática",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Batista de Souza Neto",
+            "email": "miguelnetoarte@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.4.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "MiguelNeto\\Matematica\\":"src"
+        }
+    }
+}
